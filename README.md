@@ -38,29 +38,13 @@ A pre-made template for quick-starting a kaboom project.
 
 #### ITCH.IO
 
-- Create a zip file and copy dist/index.html, dist/dist.js, sprites/ and sounds/ in there. (Do not add the dist/ folder directly, but the contents of it)
-You will have this folder structure:
-```
-┌─itchio.zip──────────────┐
-│       │                 │
-│       │                 │
-│       ├─►index.html     │
-│       │                 │
-│       ├─►dist.js        │
-│       │                 │
-│       ├─►sounds/        │
-│       │   │             │
-│       │   ├──►click.wav │
-│       │   │             │
-│       │   └──►songs.mp3 │
-│       │                 │
-│       └─►sprites/       │
-│           │             │
-│           ├──►mark.png  │
-│           │             │
-│           └──►coin.png  │
-│                         │
-└─────────────────────────┘
-```
+- Make a zip containing the files in your workspace
+- Mainly include:
+  - the dist/ folder
+  - the sounds/ folder
+  - the sprites/ folder
+  - the index.html file
+
+- Remember to build your javascript with the npm scripts above
 
 *Additional info: The buildJs script is set to watch-mode. You only have to run it once and it will always bundle your javascript when you change something. It can also throw Javascript errors. If you want to only build once, run the buildJsOnce script.*
